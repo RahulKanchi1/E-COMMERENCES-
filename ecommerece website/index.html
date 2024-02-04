@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online shopping</title>
+<style>
+    body{
+        font-family: serif;
+        font-size: 25;
+        color: white;
+        background-color: black;
+        
+      
+    }
+    li{
+        list-style: none;
+        display: inline;
+        margin: 40px;
+        margin-top: 40px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .searchbar{
+        box-sizing: content-box;
+        height: 30px;
+        width: 450px;
+
+    }
+    .menu{
+        background-color: #00020f;
+        color: white;
+        height: 60px;
+    }
+    li:hover{
+        background-color: crimson;
+    }
+    input:focus{
+        background-color: goldenrod;
+    }
+    .container{
+        background-image: url(fashiontheme.jpg);
+        
+        width: 100%;
+        height: 1000px;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px;
+        width: 100%;
+        
+
+    }
+    .inside{
+        background-color: rgb(17, 0, 0);
+        opacity: 0.8;
+        height: 400px;
+        width: 600px;
+        position: relative;
+        left: 500px;
+        top: 140px;
+        color: white;
+      
+        font-weight: bolder;
+        border-radius: 20%;
+
+    }
+    .main{
+        padding-left: 200px;
+        padding-top: 150px;
+    }
+    button{
+        height: 40px;
+        width: 150px;
+        border-radius: 60px;
+        background-color: crimson;
+        box-shadow: none;
+    }
+    button:hover{
+        background-color: goldenrod;
+    }
+    .elements{
+      
+    
+        height: 600px;
+        width: 100%;
+        display: grid;
+      grid-template-rows: 100% ;
+        grid-template-columns:30% 30%  30%;
+         
+
+    }
+    .item1{
+        border: 6px solid white ;
+    }
+    img{
+        height: 300px;
+        width: 300px;
+        border: 3px solid violet;
+        padding: 45px;
+        margin: 25px;
+    
+    }
+
+</style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <ul>
+                <li>HOME</li>
+                <input type="text" placeholder="search" class="searchbar" >
+                <li>HELP </li>
+                <li>LOGIN </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="inside">
+            <div class="main">
+                <h3>EXPLORE</h3>
+                <button>
+                 SHOP
+                </button>
+            </div>
+        </div>
+        
+
+    </div>
+    <div class="elements">
+        <div class="item1">
+            <img src="laptop.avif" alt="laptop">
+            <h3>Laptop HP</h3>
+            <button>Buy Now</button>
+        </div>
+        <div class="item1"> 
+            <img src="camera.jpg" alt=" camera">
+            <h3>CAMERA </h3>
+            <button>Buy Now</button>
+        </div>
+      
+        <div class="item1">
+            <img src="clothes.jpg" alt="clothes">
+            <h3>CLOTHES </h3>
+            <button>Buy Now</button>
+        </div>
+
+    </div>
+    <footer>
+        <h4 style="text-align: center; ">  &#169;Copyright All are Reserved</h4>
+    </footer>
+    
+</body>
+</html>
